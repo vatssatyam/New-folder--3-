@@ -1,0 +1,153 @@
+body{
+    box-sizing: border-box;  
+    }
+    .upperbox{
+        background-color: white;
+         text-align: center; 
+         color: brown;
+         font-style:italic;
+         text-shadow: 1px 1px 0px brown;
+        height: 150px;
+        width: 350px;
+        border:10px solid red;
+        border-radius: 15px;
+        position: relative;
+        left:37%;
+        box-shadow: 10px 10px 1px darkmagenta;
+    }
+     h2{
+    text-shadow: 1px 1px 2px darkmagenta;
+       
+       
+    } 
+    h4{
+        text-shadow: 1px 1px 2px darkmagenta;
+    }
+    button{
+        border-radius: 10px;
+        background-color: orange;
+    }
+    form{
+        text-align: center;
+    }
+    img{
+        /* padding:30px; */
+        border:2px solid black;
+        position: relative;
+        left:7%;
+        top:25px;
+    }
+    .green{
+        width:99%;
+        height: 600px;
+        border:10px solid green;
+        margin-bottom: 10px;
+    }
+    .box{
+        background-color: white;
+    height: 220px;
+    width: 220px;
+    border:10px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px darkmagenta;
+    }
+    .b1{
+        float: left;
+        clear:left;
+        margin-bottom:100px;
+    }
+    .b2{
+        float: right;
+        clear: right;
+        position: relative;
+        right: 10%;
+    
+    }
+    .b3{
+        float:left;
+        clear: left;
+    
+    }
+    .b4{
+    float:right;
+    position: relative;
+    right: 10%;
+    }
+    .parent{
+        display:flex;
+        flex-wrap: wrap;
+        height: 570px;
+        width:607px;
+        background-color: green;
+        border: 10px solid darkmagenta;
+        position: relative;
+         left: 25%;
+    }
+    .lowerbox{
+        background-color: rgb(234, 234, 149);
+        line-height: 31px;
+    }
+    .pbox1{
+        text-align: center;
+        width: 300px;
+        height: 250px;
+        margin-right: 5px;
+        font-style: italic;
+    }
+    .pbox2{
+        text-align: center;
+        width: 300px;
+        height: 250px;
+        font-style: italic;
+    }
+    
+    .pbox3{
+        text-align: center;
+        width: 605px;
+        height: 250px;
+        font-style: italic;
+    
+        position: relative;
+        top: -2px;
+        left: 6px;
+    }
+    .welcome{
+        background-color: green;
+        font-size: 32px;
+        font-weight:bold;
+        text-align: center;
+        width: 100%;
+    }
+    span{
+        font:20px;
+        font-weight:  bolder;
+        font-style: italic;
+    }
+    
+    .fixbox{
+        padding-top: 10px;
+        display: flex;
+        background-color: greenyellow;
+        width: 400px;
+        height: 70px;
+        color: brown;
+        border:8px solid red;
+        border-radius: 10px;
+        box-shadow: 8px 8px 1px darkmagenta;
+        position:fixed;
+        top: 400px;
+        left:400px;
+        z-index: 1;
+        
+    }
+    
+    .txt1{
+        font-style: italic;
+        font-size: x-large;
+        font-weight:bold;
+
+    }
+    .txt2{
+        font-style: italic;
+        font-weight:bold;
+    }
